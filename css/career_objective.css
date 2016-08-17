@@ -1,0 +1,20 @@
+body{
+  background: #6A1616; 
+  color: #EDC33D;
+}
+.leftimg img{
+    margin-left: -10px;
+}
+.content{
+    line-height: 1.5; padding: 10%;
+}
+.title{
+    font-family: 'aleoitalic', Arial, sans-serif;
+}
+.summary{
+    padding-top: 20px;
+    font-size: 22px;
+}
+a{
+	color: #EDC33D;
+}

@@ -1,0 +1,76 @@
+
+::-webkit-scrollbar {
+    width: 9px;
+	border-radius:3px;
+	color:#128deb;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: #b7b7b7;
+  outline: 1px solid slategrey;
+}
+/*SELECTION COLOR*/
+::-moz-selection {
+       background-color: #627CC1;
+       color: #000;
+}
+
+::selection {
+       background-color: #627CC1;
+       color: #000;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #eae8e7;/*#5da4d9*/
+}
+.leftPart a{
+	 color:#fff; 
+	 text-decoration:none;
+}
+.leftPart a:hover{
+	color: #eae8e7;
+}
+.rightPart a{
+	color: #512DAB; 
+	text-decoration:none;
+}
+
+.rightPart a:hover{
+	color: #EDC33D;
+}
+header{
+	position: fixed;
+	width: 100%;
+	height: 70px;
+	top: 0px;
+	left: 0px;
+	background-color: #5da4b9;
+	z-index: 3;
+}
+.name{
+	font-size: 34px;
+	padding-top: 20px;
+	color: #FFFFFF;
+}
+.header{
+	position: absolute;
+	width: 100%;
+	height: 170px;
+	top: 0px;
+	left: 0px;
+	background-color: #5da4b9;
+}
+.section{
+	margin-top: 90px;
+}
+.header div{
+	font-size: 44px;
+	color: #fff;
+	margin-top: 15px;
+	font-family: 'danielblack';
+}
